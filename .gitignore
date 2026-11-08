@@ -1,0 +1,21 @@
+# Rust build output
+/target/
+
+# Rust: debug info / profiling / coverage
+**/*.rs.bk
+*.pdb
+*.profraw
+*.profdata
+lcov.info
+tarpaulin-report.html
+
+# Local environment & secrets
+.env
+.env.*
+!.env.example
+
+# Editors / OS
+.idea/
+*.swp
+.DS_Store
+.vscode/

@@ -1,0 +1,9 @@
+[package]
+name = "deeplink-app"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+deeplink-core = { version = "0.1.0", path = "../core" }
+deeplink-http = { version = "0.1.0", path = "../http" }
+deeplink-postgres = { version = "0.1.0", path = "../postgres" }

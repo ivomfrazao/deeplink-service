@@ -1,0 +1,9 @@
+[package]
+name = "deeplink-core"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+chrono = { version = "0.4.45", default-features = false, features = ["clock"] }
+constant_time_eq = "0.6.1"
+uuid = { version = "1.29.1", features = ["v4"] }
